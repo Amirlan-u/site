@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local anime files stay on the Raspberry Pi by default.
+dist/**/*.mp4
+dist/**/*.m4v
+dist/**/*.webm
+dist/**/*.ogg
+dist/**/*.ogv
+
+# Keep the small demo clip so a fresh checkout can test the player.
+!dist/Пример аниме/season 1/01 - Оригинал.mp4
